@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    font-size: medium;
+    color: black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 5px;
+}
+tr:hover{
+    background-color: beige;
+
+}
+
+.card-text{
+    font-family:  'Montserrat', sans-serif;
+    font-weight:500;
+    letter-spacing: 1px;
+    font-size:18px;
+}

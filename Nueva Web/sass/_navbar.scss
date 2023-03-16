@@ -1,0 +1,31 @@
+.flex { /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    font-family:  'Montserrat', sans-serif;
+    font-weight:300;
+    letter-spacing: 1px;
+    font-size:70px;
+}
+.header {
+    position:relative;
+    text-align:center;
+    background: linear-gradient(60deg,  rgba(224,224,237,1) 0%, rgba(165,179,150,1) 41%);
+    color:white;
+}
+.logo {
+    width:50px;
+    fill:white;
+    padding-right:15px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.inner-header {
+    height:65vh;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}

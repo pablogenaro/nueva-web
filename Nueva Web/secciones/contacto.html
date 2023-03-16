@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content=muebleria, fabricacion propia, pedidos y fabricacion a medida >
+    <meta name="keywords"
+    content=muebles,fabricacion,muebles a medida, muebles artesanales>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="file:///C:/Users/Agus/Desktop/NORDENMOB%20-%20copia/imagenes/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>NORDENMOB</title>
+</head>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="../index.html">
+            <img src="file:///C:/Users/Agus/Desktop/NORDENMOB%20-%20copia/imagenes/logo%20nord3.png"
+              height="120"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <!-- Collapsible wrapper -->
+    
+        <!-- Right navbar -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>    
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        <!-- //Navbar -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+<body>
+
+  <section class="intro">
+    <div class="mask d-flex align-items-center h-100 gradient-custom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9 col-xl-7">
+            <div class="card">
+              <div class="card-body p-4 p-md-5">
+                <h3 class="mb-4 pb-2">¡Contanos de vos!</h3>
+  
+                <form action="">
+  
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+  
+                      <div class="form-outline">
+                        <input type="text" id="firstName" class="form-control" />
+                        <label class="form-label" for="firstName">Nombre</label>
+                      </div>
+  
+                    </div>
+                    <div class="col-md-6 mb-4">
+  
+                      <div class="form-outline">
+                        <input type="text" id="lastName" class="form-control" />
+                        <label class="form-label" for="lastName">Apellido</label>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+  
+                      <div class="form-outline datepicker">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="birthdayDate"
+                        />
+                        <label for="birthdayDate" class="form-label">Mail</label>
+                      </div>
+  
+                    </div>
+                    <div class="col-md-6 mb-4">
+  
+                      <h6 class="mb-2 pb-1">Género: </h6>
+  
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="inlineRadioOptions"
+                          id="femaleGender"
+                          value="option1"
+                        />
+                        <label class="form-check-label" for="femaleGender">Femenino</label>
+                      </div>
+  
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="inlineRadioOptions"
+                          id="maleGender"
+                          value="option2"
+                        />
+                        <label class="form-check-label" for="maleGender">Masculino</label>
+                      </div>
+  
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="inlineRadioOptions"
+                          id="otherGender"
+                          value="option3"
+                        />
+                        <label class="form-check-label" for="otherGender">Otro</label>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                    <div class="col-12">
+  
+                      <div class="form-outline">
+                        <input type="tel" id="phoneNumber" class="form-control" />
+                        <label class="form-label" for="phoneNumber">Nùmero de telefono</label>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-12">             
+                      <center><label for="opcion">¿Qué Buscabas?</label>
+                        <select name="muebles" id="muebles">
+                            <option value="Muebles a Medida">Muebles a Medida</option>
+                            <option value="Muebles de Jardin">Muebles de Jardin</option>
+                            <option value="Muebles en General">Muebles en General</option>
+                        </select></center>
+
+                      <div class="mt-12">
+                       <center> <br><input class="btn btn-warning btn-lg" type="Enviar" value="Enviar" /></center>
+                       <br>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--Footer-->
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        
+        <a  class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="http://www.facebook.com" role="button" >Facebook <i class="fab fa-facebook"></i></a>
+  
+        <!-- Instagram -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="http://www.instagram.com" role="button">Instagram <i class="fab fa-instagram"></i></a>
+  
+        
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="./index.html">NORDERMOB</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+  <!--Footer-->  
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    
+</body>
+
+
+</html>
